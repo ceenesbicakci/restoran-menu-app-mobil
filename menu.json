@@ -22,7 +22,7 @@
         },
         {
           "id": "2",
-          "name": "sjsj",
+          "name": "Kahve",
           "price": 23,
           "desc": "",
           "image": "https://www.buseterim.com.tr/upload/default/2019/9/30/kahvehakkndabilmenizgerekenler680.jpg",
@@ -61,7 +61,7 @@
       "items": []
     }
   ],
-  "updatedAt": "2025-11-05T15:45:59.343Z",
+  "updatedAt": "2025-11-05T15:46:40.092Z",
   "themeColors": {
     "bgColor": "#0b0b0c",
     "cardColor": "#121214",
