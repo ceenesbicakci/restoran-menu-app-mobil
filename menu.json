@@ -43,6 +43,14 @@
           "desc": "sfghsf",
           "image": "",
           "tags": []
+        },
+        {
+          "id": "5",
+          "name": "ghkgk",
+          "price": 65,
+          "desc": "",
+          "image": "",
+          "tags": []
         }
       ]
     },
@@ -53,5 +61,13 @@
       "items": []
     }
   ],
-  "updatedAt": "2025-11-05T15:19:15.781Z"
+  "updatedAt": "2025-11-05T15:28:47.842Z",
+  "themeColors": {
+    "bgColor": "#059669",
+    "cardColor": "#1f2937",
+    "textColor": "#f3f4f6",
+    "mutedColor": "#9ca3af",
+    "accentColor": "#8b5cf6",
+    "borderColor": "#1f2937"
+  }
 }
