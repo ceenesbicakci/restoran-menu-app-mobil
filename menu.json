@@ -41,7 +41,7 @@
           "name": "Çay",
           "price": 15.0,
           "desc": "",
-          "image": "",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiokdBHtBYVJEak6OW5AFkLX4aWN5HBa-d2PN2qVMzcJ2OIZuIyZJxmw8Y&s=10",
           "tags": []
         },
         {
@@ -61,7 +61,7 @@
       "items": []
     }
   ],
-  "updatedAt": "2025-11-05T18:57:09.356811Z",
+  "updatedAt": "2025-11-05T18:59:00.112524Z",
   "themeColors": {
     "bgColor": "#FFD9CB",
     "cardColor": "#121214",
