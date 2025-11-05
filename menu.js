@@ -90,21 +90,37 @@
         const row = document.createElement('div');
         row.className = 'item';
 
+        // Görsel varsa ekle
+        if (item?.image && item.image.trim()) {
+          const imgWrapper = document.createElement('div');
+          imgWrapper.className = 'item-image-wrapper';
+          const img = document.createElement('img');
+          img.src = item.image;
+          img.alt = item?.name || '';
+          img.className = 'item-image';
+          img.onerror = function() { this.style.display = 'none'; }; // Hata durumunda gizle
+          imgWrapper.appendChild(img);
+          row.appendChild(imgWrapper);
+        }
+
+        const content = document.createElement('div');
+        content.className = 'item-content';
+
         const name = document.createElement('div');
         name.className = 'item-name';
         name.textContent = item?.name || '';
-        row.appendChild(name);
+        content.appendChild(name);
 
         const price = document.createElement('div');
         price.className = 'item-price';
         price.textContent = typeof item?.price === 'number' ? formatPrice(item.price, currency) : '';
-        row.appendChild(price);
+        content.appendChild(price);
 
         if (item?.desc) {
           const desc = document.createElement('div');
           desc.className = 'item-desc';
           desc.textContent = item.desc;
-          row.appendChild(desc);
+          content.appendChild(desc);
         }
 
         if (Array.isArray(item?.tags) && item.tags.length) {
@@ -116,9 +132,10 @@
             tag.textContent = t;
             tags.appendChild(tag);
           }
-          row.appendChild(tags);
+          content.appendChild(tags);
         }
 
+        row.appendChild(content);
         card.appendChild(row);
       }
 
