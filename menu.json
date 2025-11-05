@@ -2,7 +2,7 @@
   "restaurant": {
     "name": "Helvacı Enes",
     "currency": "TRY",
-    "logo": "",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA4FNi_-k41LMrQPN3tPBq1uocrOssio9knw&s",
     "address": "Yukarıkirazca Mah. Demiryolu Cad. No:87 Arifiye/SAKARYA",
     "phone": "0552 494 9075"
   },
@@ -84,5 +84,5 @@
       "items": []
     }
   ],
-  "updatedAt": "2025-11-05T11:47:59.892Z"
+  "updatedAt": "2025-11-05T14:29:24.575Z"
 }
