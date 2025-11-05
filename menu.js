@@ -100,7 +100,17 @@
           const imgWrapper = document.createElement('div');
           imgWrapper.className = 'item-image-wrapper';
           const img = document.createElement('img');
-          img.src = item.image;
+          
+          // Base64 data URL veya normal URL desteği
+          const imageUrl = item.image.trim();
+          if (imageUrl.startsWith('data:image')) {
+            // Base64 görsel
+            img.src = imageUrl;
+          } else {
+            // Normal URL
+            img.src = imageUrl;
+          }
+          
           img.alt = item?.name || '';
           img.className = 'item-image';
           
@@ -108,6 +118,7 @@
           img.onerror = function() { 
             // Hata durumunda wrapper'ı gizle
             imgWrapper.style.display = 'none'; 
+            console.warn('Görsel yüklenemedi:', imageUrl);
           };
           
           // Eğer görsel zaten yüklenmişse (cache'den)
