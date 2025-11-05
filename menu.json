@@ -58,10 +58,43 @@
       "id": "2",
       "name": "Soğuk İçecekler",
       "description": "",
-      "items": []
+      "items": [
+        {
+          "id": "1",
+          "name": "Maden Suyu(Sade)",
+          "price": 15.0,
+          "desc": "Beypazarı",
+          "image": "",
+          "tags": []
+        },
+        {
+          "id": "2",
+          "name": "Meyveli Soda",
+          "price": 20.0,
+          "desc": "Freşa",
+          "image": "",
+          "tags": []
+        },
+        {
+          "id": "3",
+          "name": "Limonata",
+          "price": 50.0,
+          "desc": "El yapımı",
+          "image": "",
+          "tags": []
+        },
+        {
+          "id": "4",
+          "name": "Su",
+          "price": 10.0,
+          "desc": "",
+          "image": "",
+          "tags": []
+        }
+      ]
     }
   ],
-  "updatedAt": "2025-11-05T19:03:59.439196Z",
+  "updatedAt": "2025-11-05T19:09:41.347834Z",
   "themeColors": {
     "bgColor": "#ffffff",
     "cardColor": "#e5e7eb",
