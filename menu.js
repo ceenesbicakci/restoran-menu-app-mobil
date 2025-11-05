@@ -40,9 +40,14 @@
     const sourceEl = document.getElementById('json-source');
 
     nameEl.textContent = info?.name || 'Menü';
-    if (info?.logo) {
+    if (info?.logo && info.logo.trim()) {
       logoEl.src = info.logo;
       logoEl.style.display = 'block';
+      logoEl.onerror = function() { 
+        this.style.display = 'none'; 
+      }; // Hata durumunda gizle
+    } else {
+      logoEl.style.display = 'none';
     }
     const t = qs.get('t');
     tableEl.textContent = t ? `Masa: ${t}` : '';
@@ -98,7 +103,23 @@
           img.src = item.image;
           img.alt = item?.name || '';
           img.className = 'item-image';
-          img.onerror = function() { this.style.display = 'none'; }; // Hata durumunda gizle
+          
+          // Görsel yükleme kontrolü
+          img.onerror = function() { 
+            // Hata durumunda wrapper'ı gizle
+            imgWrapper.style.display = 'none'; 
+          };
+          
+          // Eğer görsel zaten yüklenmişse (cache'den)
+          if (img.complete && img.naturalHeight !== 0) {
+            imgWrapper.style.display = 'block';
+          } else {
+            img.onload = function() {
+              // Yüklendiğinde görünür olduğundan emin ol
+              imgWrapper.style.display = 'block';
+            };
+          }
+          
           imgWrapper.appendChild(img);
           row.appendChild(imgWrapper);
         }

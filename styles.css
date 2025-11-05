@@ -65,6 +65,8 @@ body {
   border-radius: 8px;
   overflow: hidden;
   background: var(--border);
+  display: block;
+  position: relative;
 }
 .item-image {
   width: 100%;
