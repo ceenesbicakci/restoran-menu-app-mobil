@@ -164,17 +164,53 @@
     }
   }
 
+  function applyThemeColors(colors) {
+    if (!colors) {
+      console.log('Renk ayarları bulunamadı');
+      return;
+    }
+    console.log('Renkler uygulanıyor:', colors);
+    const root = document.documentElement;
+    const body = document.body;
+    
+    // CSS değişkenlerini güncelle
+    if (colors.bgColor) {
+      root.style.setProperty('--bg', colors.bgColor);
+      body.style.backgroundColor = colors.bgColor;
+    }
+    if (colors.cardColor) root.style.setProperty('--card', colors.cardColor);
+    if (colors.textColor) {
+      root.style.setProperty('--text', colors.textColor);
+      body.style.color = colors.textColor;
+    }
+    if (colors.mutedColor) root.style.setProperty('--muted', colors.mutedColor);
+    if (colors.accentColor) root.style.setProperty('--accent', colors.accentColor);
+    if (colors.borderColor) root.style.setProperty('--border', colors.borderColor);
+    
+    console.log('Renkler uygulandı');
+  }
+
   async function init() {
     const src = resolveSourceUrl();
     try {
       const data = await fetchJson(src);
+      console.log('JSON yüklendi:', data);
       setHeader(data?.restaurant, data?.updatedAt);
+      
+      // Renkleri uygula (varsa)
+      if (data?.themeColors) {
+        console.log('Theme colors bulundu:', data.themeColors);
+        applyThemeColors(data.themeColors);
+      } else {
+        console.log('Theme colors yok, varsayılan renkler kullanılıyor');
+      }
+      
       render(data);
     } catch (e) {
       setHeader({ name: 'Menü' }, null);
       const categoriesEl = document.getElementById('categories');
       categoriesEl.innerHTML = `<div class="empty">Veri yüklenemedi. Kaynak: ${src}</div>`;
-      console.error(e);
+      console.error('Hata:', e);
     }
   }
 
