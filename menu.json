@@ -1,6 +1,6 @@
 {
   "restaurant": {
-    "name": "Helvacı Enes",
+    "name": "soskie",
     "currency": "TRY",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA4FNi_-k41LMrQPN3tPBq1uocrOssio9knw&s",
     "address": "Yukarıkirazca Mah. Demiryolu Cad No:87 Arifiye /SAKARYA",
@@ -61,13 +61,13 @@
       "items": []
     }
   ],
-  "updatedAt": "2025-11-05T18:59:00.112524Z",
+  "updatedAt": "2025-11-05T19:01:29.579721Z",
   "themeColors": {
-    "bgColor": "#FFD9CB",
-    "cardColor": "#121214",
-    "textColor": "#f3f4f6",
+    "bgColor": "#ffffff",
+    "cardColor": "#e5e7eb",
+    "textColor": "#121214",
     "mutedColor": "#9ca3af",
-    "accentColor": "#22c55e",
+    "accentColor": "#f59e0b",
     "borderColor": "#1f2937"
   }
 }
