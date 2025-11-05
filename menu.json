@@ -2,87 +2,18 @@
   "restaurant": {
     "name": "Helvacı Enes",
     "currency": "TRY",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA4FNi_-k41LMrQPN3tPBq1uocrOssio9knw&s",
-    "address": "Yukarıkirazca Mah. Demiryolu Cad. No:87 Arifiye/SAKARYA",
-    "phone": "0552 494 9075"
+    "logo": "",
+    "address": "",
+    "phone": ""
   },
-  "categories": [
-    {
-      "id": "1",
-      "name": "Sıcak İçecek",
-      "description": "İçiniz Isınsın",
-      "items": [
-        {
-          "id": "1",
-          "name": "Çay",
-          "price": 15,
-          "desc": "",
-          "image": "",
-          "tags": []
-        },
-        {
-          "id": "2",
-          "name": "Türk Kahvesi",
-          "price": 60,
-          "desc": "",
-          "image": "https://coffeedemadrid.com.tr/wp-content/uploads/2025/04/Turk-Kahvesi.jpg",
-          "tags": []
-        },
-        {
-          "id": "3",
-          "name": "Filtre Kahve",
-          "price": 75,
-          "desc": "250 ml",
-          "image": "https://i.lezzet.com.tr/images-xxlarge-secondary/filtre-kahve-yanina-ne-gider-736bcfb7-3cb2-4f5c-b634-7c14b5aba40f",
-          "tags": []
-        },
-        {
-          "id": "4",
-          "name": "Oralet",
-          "price": 15,
-          "desc": "Biraz Nostalji",
-          "image": "https://eskikafalikahveci.com/wp-content/uploads/2023/08/Eski-Kafali-Kahveci-oralet.jpeg",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": "1",
-      "name": "Soğuk İçecek",
-      "description": "Buzz Gibi",
-      "items": [
-        {
-          "id": "1",
-          "name": "Maden Suyu (Sade)",
-          "price": 15,
-          "desc": "Beypazarı",
-          "image": "https://www.onanltd.com/uploads/company/b17.jpg",
-          "tags": []
-        },
-        {
-          "id": "2",
-          "name": "Limonlu Soda",
-          "price": 20,
-          "desc": "Freşa",
-          "image": "https://www.samiardagida.com/wp-content/uploads/2020/06/Fres%CC%A7a-limon-aromal%C4%B1-soda-250-ml-1-koli-24-adet-2950.jpg",
-          "tags": []
-        },
-        {
-          "id": "3",
-          "name": "Su",
-          "price": 10,
-          "desc": "Dümdüz Su",
-          "image": "",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": "3",
-      "name": "Atıştırmalık",
-      "description": "",
-      "items": []
-    }
-  ],
-  "updatedAt": "2025-11-05T14:29:24.575Z"
+  "categories": [],
+  "updatedAt": "2025-11-05T15:07:02.691Z",
+  "themeColors": {
+    "bgColor": "#0b0b0c",
+    "cardColor": "#121214",
+    "textColor": "#f3f4f6",
+    "mutedColor": "#9ca3af",
+    "accentColor": "#22c55e",
+    "borderColor": "#1f2937"
+  }
 }
