@@ -56,12 +56,12 @@
     },
     {
       "id": "2",
-      "name": "Soğuk",
-      "description": "Üşütür",
+      "name": "Soğuk İçecekler",
+      "description": "",
       "items": []
     }
   ],
-  "updatedAt": "2025-11-05T19:01:29.579721Z",
+  "updatedAt": "2025-11-05T19:03:59.439196Z",
   "themeColors": {
     "bgColor": "#ffffff",
     "cardColor": "#e5e7eb",
