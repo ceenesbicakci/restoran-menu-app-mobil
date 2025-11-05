@@ -2,7 +2,7 @@
   "restaurant": {
     "name": "Helvacı Enes",
     "currency": "TRY",
-    "logo": "",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA4FNi_-k41LMrQPN3tPBq1uocrOssio9knw&s",
     "address": "",
     "phone": ""
   },
@@ -23,5 +23,5 @@
       ]
     }
   ],
-  "updatedAt": "2025-11-05T15:15:54.584Z"
+  "updatedAt": "2025-11-05T15:16:27.973Z"
 }
