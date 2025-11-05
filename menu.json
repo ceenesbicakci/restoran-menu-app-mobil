@@ -6,8 +6,24 @@
     "address": "",
     "phone": ""
   },
-  "categories": [],
-  "updatedAt": "2025-11-05T15:07:20.496Z",
+  "categories": [
+    {
+      "id": "1",
+      "name": "Sıcak İçecekler",
+      "description": "",
+      "items": [
+        {
+          "id": "1",
+          "name": "Torpido",
+          "price": 1000000,
+          "desc": "",
+          "image": "blob:http://localhost:52798/b1981a77-13c9-4bd2-b053-e6ee86b97bb6",
+          "tags": []
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2025-11-05T15:11:48.139Z",
   "themeColors": {
     "bgColor": "#0b0b0c",
     "cardColor": "#121214",
