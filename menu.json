@@ -19,9 +19,39 @@
           "desc": "",
           "image": "blob:http://localhost:46443/46af2fba-4494-45b9-bbc7-b1673906ec70",
           "tags": []
+        },
+        {
+          "id": "2",
+          "name": "sjsj",
+          "price": 23,
+          "desc": "",
+          "image": "https://www.buseterim.com.tr/upload/default/2019/9/30/kahvehakkndabilmenizgerekenler680.jpg",
+          "tags": []
+        },
+        {
+          "id": "3",
+          "name": "dghfhn",
+          "price": 32,
+          "desc": "xfvdfgv",
+          "image": "",
+          "tags": []
+        },
+        {
+          "id": "4",
+          "name": "kskka",
+          "price": 54,
+          "desc": "sfghsf",
+          "image": "",
+          "tags": []
         }
       ]
+    },
+    {
+      "id": "2",
+      "name": "Soğuk",
+      "description": "Üşütür",
+      "items": []
     }
   ],
-  "updatedAt": "2025-11-05T15:16:27.973Z"
+  "updatedAt": "2025-11-05T15:19:15.781Z"
 }
