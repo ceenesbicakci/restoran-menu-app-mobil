@@ -15,7 +15,7 @@
         {
           "id": "3",
           "name": "Filtre Kahve",
-          "price": 80.0,
+          "price": 80,
           "desc": "300 ml",
           "image": "",
           "tags": []
@@ -23,7 +23,7 @@
         {
           "id": "2",
           "name": "Türk Kahvesi",
-          "price": 60.0,
+          "price": 60,
           "desc": "Geleneksel Türk Kahvesi",
           "image": "https://www.buseterim.com.tr/upload/default/2019/9/30/kahvehakkndabilmenizgerekenler680.jpg",
           "tags": []
@@ -31,7 +31,7 @@
         {
           "id": "5",
           "name": "Menengiç Kahvesi",
-          "price": 65.0,
+          "price": 65,
           "desc": "",
           "image": "",
           "tags": []
@@ -39,7 +39,7 @@
         {
           "id": "4",
           "name": "Çay",
-          "price": 15.0,
+          "price": 15,
           "desc": "",
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiokdBHtBYVJEak6OW5AFkLX4aWN5HBa-d2PN2qVMzcJ2OIZuIyZJxmw8Y&s=10",
           "tags": []
@@ -47,7 +47,7 @@
         {
           "id": "5",
           "name": "Latte",
-          "price": 90.0,
+          "price": 90,
           "desc": "",
           "image": "https://129584509.cdn6.editmysite.com/uploads/1/2/9/5/129584509/FSJFIVZBE2I5RSOYOKEZXSL7.jpeg",
           "tags": []
@@ -62,7 +62,7 @@
         {
           "id": "1",
           "name": "Maden Suyu(Sade)",
-          "price": 15.0,
+          "price": 15,
           "desc": "Beypazarı",
           "image": "",
           "tags": []
@@ -70,7 +70,7 @@
         {
           "id": "2",
           "name": "Meyveli Soda",
-          "price": 20.0,
+          "price": 20,
           "desc": "Freşa",
           "image": "",
           "tags": []
@@ -78,7 +78,7 @@
         {
           "id": "3",
           "name": "Limonata",
-          "price": 50.0,
+          "price": 50,
           "desc": "El yapımı",
           "image": "",
           "tags": []
@@ -86,7 +86,7 @@
         {
           "id": "4",
           "name": "Su",
-          "price": 10.0,
+          "price": 10,
           "desc": "",
           "image": "",
           "tags": []
@@ -100,10 +100,10 @@
       "items": []
     }
   ],
-  "updatedAt": "2025-11-05T19:27:32.920645Z",
+  "updatedAt": "2025-11-07T12:39:01.522Z",
   "themeColors": {
-    "bgColor": "#ffffff",
-    "cardColor": "#e5e7eb",
+    "bgColor": "#f3f4f6",
+    "cardColor": "#9ca3af",
     "textColor": "#121214",
     "mutedColor": "#9ca3af",
     "accentColor": "#f59e0b",
