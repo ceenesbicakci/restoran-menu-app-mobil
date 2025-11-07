@@ -100,13 +100,13 @@
       "items": []
     }
   ],
-  "updatedAt": "2025-11-07T13:45:33.173988Z",
+  "updatedAt": "2025-11-07T13:48:08.555960Z",
   "themeColors": {
-    "bgColor": "#0b0b0c",
-    "cardColor": "#121214",
-    "textColor": "#f3f4f6",
+    "bgColor": "#ffffff",
+    "cardColor": "#9ca3af",
+    "textColor": "#121214",
     "mutedColor": "#9ca3af",
-    "accentColor": "#22c55e",
+    "accentColor": "#f59e0b",
     "borderColor": "#1f2937"
   }
 }
