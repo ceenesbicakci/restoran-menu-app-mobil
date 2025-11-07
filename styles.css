@@ -5,6 +5,8 @@
   --muted: #9ca3af;
   --accent: #22c55e;
   --border: #1f2937;
+  --category-card: #121214;
+  --category-text: #f3f4f6;
 }
 
 * { box-sizing: border-box; }
@@ -39,7 +41,7 @@ body {
 }
 
 .category-card {
-  background: var(--card);
+  background: var(--category-card, var(--card));
   border: 1px solid var(--border);
   border-radius: 12px;
   padding: 12px;
@@ -48,6 +50,7 @@ body {
   font-size: 18px;
   font-weight: 700;
   margin: 0 0 8px 0;
+  color: var(--category-text, var(--text));
 }
 .category-desc { color: var(--muted); font-size: 13px; margin-bottom: 8px; }
 

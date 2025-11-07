@@ -203,6 +203,10 @@
     if (colors.accentColor) root.style.setProperty('--accent', colors.accentColor);
     if (colors.borderColor) root.style.setProperty('--border', colors.borderColor);
     
+    // Kategori renkleri
+    if (colors.categoryCardColor) root.style.setProperty('--category-card', colors.categoryCardColor);
+    if (colors.categoryTextColor) root.style.setProperty('--category-text', colors.categoryTextColor);
+    
     console.log('Renkler uygulandı');
   }
 
