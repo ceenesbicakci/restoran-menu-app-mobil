@@ -133,13 +133,15 @@
       ]
     }
   ],
-  "updatedAt": "2025-11-07T14:07:55.049Z",
+  "updatedAt": "2025-11-07T14:28:51.983Z",
   "themeColors": {
-    "bgColor": "#0b0b0c",
-    "cardColor": "#121214",
-    "textColor": "#f3f4f6",
+    "bgColor": "#f3f4f6",
+    "cardColor": "#9ca3af",
+    "textColor": "#121214",
     "mutedColor": "#9ca3af",
-    "accentColor": "#22c55e",
-    "borderColor": "#1f2937"
+    "accentColor": "#f59e0b",
+    "borderColor": "#1f2937",
+    "categoryCardColor": "#1f2937",
+    "categoryTextColor": "#f59e0b"
   }
 }
