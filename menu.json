@@ -8,6 +8,37 @@
   },
   "categories": [
     {
+      "id": "3",
+      "name": "Tatlılar",
+      "description": "",
+      "items": [
+        {
+          "id": "1",
+          "name": "Magnolya",
+          "price": 85.0,
+          "desc": "Çilekli-Muzlu",
+          "image": "",
+          "tags": []
+        },
+        {
+          "id": "2",
+          "name": "Profiterol",
+          "price": 70.0,
+          "desc": "",
+          "image": "",
+          "tags": []
+        },
+        {
+          "id": "3",
+          "name": "Ekler",
+          "price": 10.0,
+          "desc": "Taze",
+          "image": "",
+          "tags": []
+        }
+      ]
+    },
+    {
       "id": "1",
       "name": "Sıcak İçecekler",
       "description": "",
@@ -29,11 +60,11 @@
           "tags": []
         },
         {
-          "id": "5",
-          "name": "Latte",
-          "price": 90.0,
-          "desc": "",
-          "image": "https://129584509.cdn6.editmysite.com/uploads/1/2/9/5/129584509/FSJFIVZBE2I5RSOYOKEZXSL7.jpeg",
+          "id": "3",
+          "name": "Filtre Kahve",
+          "price": 80.0,
+          "desc": "300 ml",
+          "image": "",
           "tags": []
         },
         {
@@ -45,11 +76,11 @@
           "tags": []
         },
         {
-          "id": "3",
-          "name": "Filtre Kahve",
-          "price": 80.0,
-          "desc": "300 ml",
-          "image": "",
+          "id": "5",
+          "name": "Latte",
+          "price": 90.0,
+          "desc": "",
+          "image": "https://129584509.cdn6.editmysite.com/uploads/1/2/9/5/129584509/FSJFIVZBE2I5RSOYOKEZXSL7.jpeg",
           "tags": []
         },
         {
@@ -100,40 +131,9 @@
           "tags": []
         }
       ]
-    },
-    {
-      "id": "3",
-      "name": "Tatlılar",
-      "description": "",
-      "items": [
-        {
-          "id": "1",
-          "name": "Magnolya",
-          "price": 85.0,
-          "desc": "Çilekli-Muzlu",
-          "image": "",
-          "tags": []
-        },
-        {
-          "id": "2",
-          "name": "Profiterol",
-          "price": 70.0,
-          "desc": "",
-          "image": "",
-          "tags": []
-        },
-        {
-          "id": "3",
-          "name": "Ekler",
-          "price": 10.0,
-          "desc": "Taze",
-          "image": "",
-          "tags": []
-        }
-      ]
     }
   ],
-  "updatedAt": "2025-11-07T22:21:45.236490Z",
+  "updatedAt": "2025-11-07T22:35:46.908995Z",
   "themeColors": {
     "bgColor": "#f3f4f6",
     "cardColor": "#f59e0b",
