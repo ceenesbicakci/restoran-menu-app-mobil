@@ -36,8 +36,8 @@
     const nameEl = document.getElementById('restaurant-name');
     const logoEl = document.getElementById('restaurant-logo');
     const tableEl = document.getElementById('table-indicator');
-    const updatedEl = document.getElementById('last-updated');
-    const sourceEl = document.getElementById('json-source');
+    const addressEl = document.getElementById('restaurant-address');
+    const phoneEl = document.getElementById('restaurant-phone');
 
     nameEl.textContent = info?.name || 'Menü';
     if (info?.logo && info.logo.trim()) {
@@ -52,15 +52,20 @@
     const t = qs.get('t');
     tableEl.textContent = t ? `Masa: ${t}` : '';
 
-    if (updatedAt) {
-      const d = new Date(updatedAt);
-      updatedEl.textContent = `Son güncelleme: ${d.toLocaleString('tr-TR')}`;
+    // Adres ve telefon
+    if (info?.address && info.address.trim()) {
+      addressEl.textContent = info.address;
+      addressEl.style.display = 'block';
     } else {
-      updatedEl.textContent = 'Son güncelleme: -';
+      addressEl.style.display = 'none';
     }
-    const src = resolveSourceUrl();
-    updatedEl.href = src;
-    sourceEl.textContent = src;
+
+    if (info?.phone && info.phone.trim()) {
+      phoneEl.textContent = info.phone;
+      phoneEl.style.display = 'block';
+    } else {
+      phoneEl.style.display = 'none';
+    }
   }
 
   function render(menuData) {
