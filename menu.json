@@ -133,15 +133,14 @@
       ]
     }
   ],
-  "updatedAt": "2025-11-07T14:33:25.755Z",
+  "updatedAt": "2025-11-07T15:36:30.449Z",
   "themeColors": {
     "bgColor": "#f3f4f6",
     "cardColor": "#9ca3af",
-    "textColor": "#121214",
+    "textColor": "#0b0b0c",
     "mutedColor": "#9ca3af",
     "accentColor": "#f59e0b",
     "borderColor": "#1f2937",
-    "categoryCardColor": "#1f2937",
     "categoryTextColor": "#f59e0b"
   }
 }
