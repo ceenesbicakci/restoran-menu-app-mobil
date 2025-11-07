@@ -13,27 +13,11 @@
       "description": "",
       "items": [
         {
-          "id": "3",
-          "name": "Filtre Kahve",
-          "price": 80,
-          "desc": "300 ml",
-          "image": "",
-          "tags": []
-        },
-        {
           "id": "2",
           "name": "Türk Kahvesi",
           "price": 60,
           "desc": "Geleneksel Türk Kahvesi",
           "image": "https://www.buseterim.com.tr/upload/default/2019/9/30/kahvehakkndabilmenizgerekenler680.jpg",
-          "tags": []
-        },
-        {
-          "id": "5",
-          "name": "Menengiç Kahvesi",
-          "price": 65,
-          "desc": "",
-          "image": "",
           "tags": []
         },
         {
@@ -50,6 +34,22 @@
           "price": 90,
           "desc": "",
           "image": "https://129584509.cdn6.editmysite.com/uploads/1/2/9/5/129584509/FSJFIVZBE2I5RSOYOKEZXSL7.jpeg",
+          "tags": []
+        },
+        {
+          "id": "5",
+          "name": "Menengiç Kahvesi",
+          "price": 65,
+          "desc": "",
+          "image": "",
+          "tags": []
+        },
+        {
+          "id": "3",
+          "name": "Filtre Kahve",
+          "price": 80,
+          "desc": "300 ml",
+          "image": "",
           "tags": []
         },
         {
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "updatedAt": "2025-11-07T15:38:56.368Z",
+  "updatedAt": "2025-11-07T15:40:07.811Z",
   "themeColors": {
     "bgColor": "#1f2937",
     "cardColor": "#121214",
